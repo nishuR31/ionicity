@@ -1,0 +1,10 @@
+{
+  "appId": "com.ionicity.app",
+  "appName": "ionicity",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}

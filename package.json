@@ -1,0 +1,35 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "type": "module",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "git": "rm -rf .git && git init && git branch -m main && git remote add origin  https://github.com/nishur31/ionicity && git add . && git commit -m \"ad\" && git push -f origin main"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^8.1.3",
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/geolocation": "^8.2.0",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/local-notifications": "^8.2.0",
+    "@capacitor/network": "^8.0.1",
+    "@capacitor/splash-screen": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0",
+    "vite": "^7.3.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

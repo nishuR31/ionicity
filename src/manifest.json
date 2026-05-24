@@ -1,0 +1,17 @@
+{
+  "name": "ionicity",
+  "short_name": "ionicity",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "icons": [
+    {
+      "src": "assets/imgs/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#020617",
+  "theme_color": "#020617"
+}
